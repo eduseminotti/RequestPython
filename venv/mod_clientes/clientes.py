@@ -43,6 +43,7 @@ def UpdateClient():
     clientes.login = request.form['Login']
     clientes.senha = request.form['Senha']
     clientes.grupo = request.form['Grupo']
+    clientes.grupo1 = request.form['Grupo1']
 
     exec = clientes.updateClient()
 
